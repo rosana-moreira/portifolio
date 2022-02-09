@@ -1,0 +1,101 @@
+:root {
+  --blue: #00d2df;
+  --gradient-pink: linear-gradient(270.06deg, #6518b4 0%, #d24074 101.62%);
+  --gradient-purple: linear-gradient(270.06deg, #10d7e2 0%, #9358f7 101.62%);
+  --dark: #121212;
+  --dark-200: #151515;
+  --gray-light: #c4c4c4;
+  --light: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--dark);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+.header-menu {
+  display: flex;
+  width: 100%;
+  height: 109px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 12px;
+  border: 2px solid var(--dark-200);
+}
+.logo {
+  position: relative;
+  width: 98px;
+  height: 29px;
+  left: 180px;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+  padding: 42px;
+  text-align: center;
+  justify-content: center;
+}
+.menu a {
+  color: var(--gray-light);
+  font-size: 18px;
+  font-weight: 500;
+}
+main {
+}
+.home {
+}
+.name {
+  margin: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: relative;
+}
+.name h1 {
+  color: var(--blue);
+  font-weight: 600;
+
+line-height: 77px;
+}
+.name h2 {
+  color: var(--light);
+  font-weight: 600;
+  line-height: 29px;
+}
