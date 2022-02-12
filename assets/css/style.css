@@ -1,5 +1,5 @@
 :root {
-  --blue: #00d2df;
+  --pink: #fd135a;
   --gradient-pink: linear-gradient(270.06deg, #6518b4 0%, #d24074 101.62%);
   --gradient-purple: linear-gradient(270.06deg, #10d7e2 0%, #9358f7 101.62%);
   --dark: #121212;
@@ -76,7 +76,8 @@ p {
   font-weight: 500;
 }
 .home {
-  padding-bottom: 100px;
+  padding-bottom: 180px;
+  
 }
 
 .name {
@@ -90,10 +91,10 @@ p {
   position: relative;
 }
 .name h1 {
-  color: var(--blue);
+  color: var(--pink);
   font-weight: 600;
 
-  line-height: 77px;
+  line-height: 80px;
 }
 
 .name h2 {
@@ -109,7 +110,8 @@ p {
 .github,
 .linkedin,
 .cloud,
-.mail {
+.mail,
+.link {
   position: relative;
   text-decoration: none;
   padding: 1rem 2rem;
@@ -122,8 +124,10 @@ p {
   z-index: 1;
 }
 .linkedin::before,
-.github::before,.cloud::before,
-.mail::before {
+.github::before,
+.cloud::before,
+.mail::before,
+.link::before {
   position: absolute;
   content: "";
 
@@ -150,6 +154,7 @@ p {
 .about-me {
   width: 100%;
   background-color: var(--dark-200);
+  padding-bottom: 80px;
 }
 .container {
   display: flex;
@@ -158,12 +163,12 @@ p {
 .photo {
   margin-top: 100px;
   margin-left: 100px;
-
+  border-left: 3px solid var(--pink);
 }
 .photo-perfil {
   width: 300px;
   height: 370px;
-  border-radius: 10%;
+  border-radius: 3%;
 }
 .text {
   text-align: justify;
@@ -183,12 +188,11 @@ h3 {
   color: var(--gray-light);
   font-weight: 400;
   line-height: 40px;
-  
 }
 .social {
   display: flex;
   text-align: right;
-position: relative;
+  position: relative;
   margin-left: 50%;
 }
 .social li {
@@ -202,17 +206,96 @@ position: relative;
   width: 22px;
   height: 22px;
 }
-.contact-about{
+.contact-about {
   display: flex;
   position: relative;
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.cloud{
+.cloud {
   background-image: var(--gradient-pink);
   margin-left: 50%;
 }
-.mail{
+.mail {
   background-image: var(--gradient-purple);
   margin-left: 120px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.project-01,
+.project-03,
+.project-04,
+.project-02 {
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.title {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.project-02 {
+  padding-top: 220px;
+}
+
+.project-01 h2,
+.project-03 h2,
+.project-04 h2,
+.project-02 h2 {
+  font-weight: 600;
+  line-height: 60px;
+  color: var(--light);
+}
+.project-01 span,
+.project-03 span,
+.project-04 span,
+.project-02 span {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--gray-light);
+  text-align: justify;
+}
+
+.project-01 h3,
+.project-02 h3,
+.project-03 h3,
+.project-04 h3{
+  color: var(--pink);
+}
+.img-project {
+  border-left: 3px solid var(--pink);
+
+  width: 500px;
+  height: 250px;
+}
+.button-projects {
+  display: flex;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.link {
+  background-image: var(--gradient-purple);
+  margin-left: 20px;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 109px;
+  padding: 42px 12px;
+  border: 2px solid var(--dark-200);
+
+}
+footer h3{
+  text-align: center;
+  justify-content: center;
 }

@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <div class="header-menu">
+    <div class="header-menu" id="home">
       <div class="logo">
         <a href="">
           <img src="./assets/img/logo.png" alt="imagem logo" />
@@ -21,90 +21,166 @@
       <div class="menu">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">Sobre mim</a>
+            <a href="#about">Sobre mim</a>
           </li>
           <li>
-            <a href="#">Experiência</a>
-          </li>
-          <li>
-            <a href="#">Projetos</a>
+            <a href="#project">Projetos</a>
           </li>
         </ul>
       </div>
     </div>
   </header>
-  <section class="main">
-    <div class="home">
-      <div class="name">
-        <h2>OLÁ, EU SOU</h2>
-        <h1>ROSANA MOREIRA</h1>
-        <h2>DESENVOLVEDORA FRONT-END JUNIOR</h2>
+  <main>
+    <section class="main" >
+      <div class="home">
+        <div class="name">
+          <h2>OLÁ, EU SOU</h2>
+          <h1>ROSANA MOREIRA</h1>
+          <h2>DESENVOLVEDORA FRONT-END JUNIOR</h2>
+        </div>
+        <div class="contact">
+          <a class="github" href="https://github.com/rosana-moreira" target="_blank">
+            <img src="assets/img/github.png" alt="" />
+            GitHub
+          </a>
+          <a class="linkedin" href="https://www.linkedin.com/in/rosana-moreira-6732a513b/" target="_blank">
+            <img src="assets/img/linkedin.png" alt="" />
+            LinkedIn
+          </a>
+        </div>
+    </section>
+    <section class="about-me" id="about">
+      <div class="container">
+        <div class="photo">
+          <img class="photo-perfil" src="./assets/img/foto.jpg" alt="" />
+
+        </div>
+        <div class="text">
+          <h2>SOBRE MIM</h2>
+          <h3>Minas Gerais</h3>
+          <span>Sou mineira, apaixonada por tecnologia principalmente por
+            desenvolvimento web.Graduada em Licenciatura em Computação(2019)
+            e pós graduada em Tecnologias de Desenvolvimento Web pelo
+            IFSUDEMINAS (2021). Possuo vivência em equipes que utilizam
+            metodologias ágeis (Scrum e Kanban) para apoiar o desenvolvimento,
+            além de conhecimentos nas linguagens de programação TypeScript,
+            JavaScript, Node.js React.js, HTML5, CSS3.</span>
+        </div>
       </div>
-      <div class="contact">
-        <a class="github" href="#">
-          <img src="assets/img/github.png" alt="" />
-          GitHub
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/rosana.moreira.77920526/" target="_blank">
+              <img class="social-facebook" src="./assets/img/icon-face.png" alt="facebook" />
+            </a>
+          </li>
+          <li class="social-logo">
+            <a href="https://twitter.com/roh_moreiraa_" target="_blank">
+              <img class="social-twitter" src="./assets/img/icon-twitter.png" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/roh_moreiraa/" target="_blank">
+              <img class="social-instragam" src="./assets/img/icon-insta.png" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-about">
+        <a class="cloud" href="#">
+          <img src="assets/img/icon-cloud.png" alt="" />
+          Curriculo
         </a>
-        <a class="linkedin" href="#">
-          <img src="assets/img/linkedin.png" alt="" />
-          LinkedIn
+        <a class="mail" href="#">
+          <img src="assets/img/icon-mail.png" alt="" />
+          E-email
         </a>
-      </div>
-  </section>
-  <section class="about-me">
-    <div class="container">
-      <div class="photo">
-        <img class="photo-perfil" src="./assets/img/foto.jpg" alt="" />
-
-      </div>
-      <div class="text">
-        <h2>SOBRE MIM</h2>
-        <h3>Minas Gerais</h3>
-        <span>Sou mineira, apaixonada por tecnologia principalmente por
-          desenvolvimento web.Graduada em Licenciatura em Computação(2019)
-          e pós graduada em Tecnologias de Desenvolvimento Web pelo
-          IFSUDEMINAS (2021). Possuo vivência em equipes que utilizam
-          metodologias ágeis (Scrum e Kanban) para apoiar o desenvolvimento,
-          além de conhecimentos nas linguagens de programação TypeScript,
-          JavaScript, Node.js React.js, HTML5, CSS3.</span>
-      </div>
-    </div>
-    <div class="social">
-      <ul>
-        <li>
-          <a href="#">
-            <img class="social-facebook" src="./assets/img/icon-face.png" alt="facebook" />
+    </section>
+    <section class="projects" id="project">
+      <div class="project-01">
+        <h2 class="title">PROJETOS</h2>
+        <img class="img-project" src="./assets/img/project-01.png" alt="" />
+        <h2>Nome do Projeto</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus blandit interdum odio eu varius.</span>
+        <h3>Tecnologia utilizadas no projeto</h3>
+        <div class="button-projects">
+          <a class="github" href="#">
+            <img src="assets/img/github.png" alt="" />
+            GitHub
           </a>
-        </li>
-        <li class="social-logo">
-          <a href="#">
-            <img class="social-twitter" src="./assets/img/icon-twitter.png" alt="twitter" />
+          <a class="link" href="#">
+            <img src="assets/img/icon-link.png" alt="" />
+            Visualizar
           </a>
-        </li>
-        <li>
-          <a href="#">
-            <img class="social-instragam" src="./assets/img/icon-insta.png" alt="Instagram" />
+        </div>
+      </div>
+
+      <div class="project-02">
+
+        <img class="img-project" src="./assets/img/project-01.png" alt="" />
+        <h2>Nome do Projeto</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus blandit interdum odio eu varius.</span>
+        <h3>Tecnologia utilizadas no projeto</h3>
+        <div class="button-projects">
+          <a class="github" href="#">
+            <img src="assets/img/github.png" alt="" />
+            GitHub
           </a>
-        </li>
-      </ul>
-    </div>
+          <a class="link" href="#">
+            <img src="assets/img/icon-link.png" alt="" />
+            Visualizar
+          </a>
+        </div>
+      </div>
 
-    <div class="contact-about">
-      <a class="cloud" href="#">
-        <img src="assets/img/icon-cloud.png" alt="" />
-        Curriculo
-      </a>
-      <a class="mail" href="#">
-        <img src="assets/img/icon-mail.png" alt="" />
-        E-email
-      </a>
+      <div class="project-03">
 
+        <img class="img-project" src="./assets/img/project-01.png" alt="" />
+        <h2>Nome do Projeto</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus blandit interdum odio eu varius.</span>
+        <h3>Tecnologia utilizadas no projeto</h3>
+        <div class="button-projects">
+          <a class="github" href="#">
+            <img src="assets/img/github.png" alt="" />
+            GitHub
+          </a>
+          <a class="link" href="#">
+            <img src="assets/img/icon-link.png" alt="" />
+            Visualizar
+          </a>
+        </div>
+      </div>
 
+      <div class="project-04">
 
-  </section>
+        <img class="img-project" src="./assets/img/project-01.png" alt="" />
+        <h2>Nome do Projeto</h2>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus blandit interdum odio eu varius.</span>
+        <h3>Tecnologia utilizadas no projeto</h3>
+        <div class="button-projects">
+          <a class="github" href="#">
+            <img src="assets/img/github.png" alt="" />
+            GitHub
+          </a>
+          <a class="link" href="#">
+            <img src="assets/img/icon-link.png" alt="" />
+            Visualizar
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <footer>
+      <h3>@ 2022 - Rosana Moreira</h3>
+    </footer>
+  </main>
 </body>
-
 </html>
