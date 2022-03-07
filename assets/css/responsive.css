@@ -1,0 +1,88 @@
+@media screen and (max-width: 800px) {
+    ul.topnav li {
+      display: none;
+    }
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    ul.topnav.responsive {
+      position: relative;
+      background: rgba(0, 0, 0, 0.75); /*Fundo cinza*/
+      height: 400px;
+      line-height: 5px;
+      width: 500px;
+      padding-top: 200px;
+    }
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-top: 200px;
+    }
+    ul.topnav.responsive li {
+      text-align: center;
+      float: none;
+      padding: 0;
+      display: inline;
+    }
+    ul.topnav.responsive li a {
+      display: block;
+      padding: 0;
+      text-align: left;
+      line-height: 30px;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    span {
+      font-size: 12px;
+      padding-bottom: 20px;
+    }
+    .contact a {
+      font-size: 20px;
+    }
+    .about-me {
+      width: 100%;
+      height: 700px;
+      padding-bottom: 200px;
+    }
+    .photo-perfil {
+      width: 200px;
+      height: 270px;
+      border-left: 3px solid var(--pink);
+    }
+    .photo {
+      margin-top: 100px;
+      margin-left: 50px;
+      margin-bottom: 0px;
+    }
+    .social img {
+      width: 12px;
+      height: 12px;
+    }
+    .social li {
+      padding: 20px;
+    }
+    .contact-about a {
+      font-size: 10px;
+    }
+    .contact-about img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  
