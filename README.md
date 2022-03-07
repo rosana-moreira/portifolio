@@ -5,15 +5,15 @@ Pagina em desenvolvimento.
 </p>
 
 <h1 align="center">
-  <img alt="logo" title="#logo" src="./assets/img/git01.png" />
+  <img alt="logo" title="#logo" src="./assets/img/git-01.png" />
 </h1>
 
 <h1 align="center">
-  <img alt="logo" title="#logo" src="./assets/img/git02.png" />
+  <img alt="logo" title="#logo" src="./assets/img/git-02.png" />
 </h1>
 
 <h1 align="center">
-  <img alt="logo" title="#logo" src="./assets/img/git03.png" />
+  <img alt="logo" title="#logo" src="./assets/img/git-03.png" />
 </h1>
 
 ### 🎲 Executando o codigo fonte
